@@ -1,0 +1,14 @@
+[core]
+        editor = vi
+[alias]
+        st = status
+        pr = pull --rebase
+        lone = log --oneline
+        wc = whatchanged
+        pu = push origin HEAD:refs/for/master   
+        rhh = reset --hard HEAD^
+        rsh = reset --soft HEAD^
+        rh = reset HEAD^
+        co = checkout
+        ca = commit --amend
+        cn = commit
